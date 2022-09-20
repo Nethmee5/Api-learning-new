@@ -1,0 +1,1 @@
+﻿services.AddTransient<AppDb>(_ => new AppDb(Configuration["ConnectionStrings:DefaultConnection"]));
